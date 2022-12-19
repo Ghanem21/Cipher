@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/caesarFragment"
+        android:title="@string/caesar_cipher"/>
+
+    <item
+        android:id="@+id/monoAlphabeticFragment"
+        android:title="@string/mono_alphabetic"/>
+
+    <item
+        android:id="@+id/polyAlphabeticFragment"
+        android:title="@string/poly_alphabetic"/>
+
+    <item
+        android:id="@+id/playFairFragment"
+        android:title="@string/play_fair"/>
+
+    <item
+        android:id="@+id/imageCryptographyActivity"
+        android:title="@string/image_crypt"/>
+</menu>

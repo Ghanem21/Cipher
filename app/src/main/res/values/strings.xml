@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Crypto</string>
+    <string name="caesar_cipher">Caesar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="plain_text">Plain text</string>
+    <string name="cipher_text">Cipher text</string>
+    <string name="key">Key</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="mono_alphabetic">Mono</string>
+    <string name="poly_alphabetic">Poly</string>
+    <string name="play_fair">Play Fair</string>
+    <string name="crypt_text">Crypt Text</string>
+    <string name="crypt_image">Crypt Image</string>
+    <string name="image_crypt">Image Crypt</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/caesarFragment">
+
+    <fragment
+        android:id="@+id/caesarFragment"
+        android:name="com.example.cipher.CaesarFragment"
+        android:label="CaesarFragment" />
+    <fragment
+        android:id="@+id/monoAlphabeticFragment"
+        android:name="com.example.cipher.MonoAlphabeticFragment"
+        android:label="MonoAlphabeticFragment" />
+    <fragment
+        android:id="@+id/polyAlphabeticFragment"
+        android:name="com.example.cipher.PolyAlphabeticFragment"
+        android:label="PolyAlphabeticFragment" />
+    <fragment
+        android:id="@+id/playFairFragment"
+        android:name="com.example.cipher.PlayFairFragment"
+        android:label="PlayFairFragment" />
+    <activity
+        android:id="@+id/imageCryptographyActivity"
+        android:name="com.example.cipher.ImageCryptographyActivity"
+        android:label="activity_image_cryptography"
+        tools:layout="@layout/activity_image_cryptography" />
+</navigation>
